@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-Black";
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(233, 47%, 7%);
+;
+    align-content: center;
+    justify-items: center;
+}
+#main{
+    height: 55vh;
+    width:80vw;
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: hsl(233, 47%, 7%);
+    position: relative;
+}
+#right img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: hsla(276, 72%, 26%, 0.69);
+    position: absolute;
+
+}
+#left{
+    height: 100%;
+    width: 50%;
+    color: white;
+    padding: 7vh 5vw;
+}
+#left h1,#left span{
+    font-size: 50px;
+    font-family: "Lexend Deca";
+    font-weight: 700;
+    text-space: 10px;
+}
+#left h3{
+
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin: 5vh 0;
+    font-size: 20px;
+    line-height: 37px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+#up {
+    height: 75%;
+    width: 100%;
+}
+#down
+{
+    height: 25%;
+    width: 100%;
+    display: grid;
+    grid-template-columns:33% 33% auto;
+    grid-template-rows: 100%;
+}
+#down h1{
+    font-weight: 500;
+    font-size: 38px;
+}
+#one{
+    height: 100%;
+    width: 100%;
+
+
+}
+#two{
+    height: 100%;
+    width: 100%;
+
+}
+#three{
+    height: 100%;
+    width: 100%;
+
+}
+#down h2{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-family: "Lexend Deca";
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: 13px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
